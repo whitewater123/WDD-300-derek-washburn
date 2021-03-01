@@ -26,7 +26,7 @@ const ol = document.getElementById("contents");
 
 for (let i of links) {
     const li = document.createElement("li");
-    const a = document.createElement("a");
+    const a = document.createElement("a"); 
     a.setAttribute("href", i.url);
     a.innerHTML = i.label;
     li.appendChild(a);
