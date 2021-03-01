@@ -22,7 +22,7 @@ const links = [
     }
 ]
 
-const ol = document.getElementById("test");
+const ol = document.getElementById("contents");
 
 for (let i of links) {
     const li = document.createElement("li");
