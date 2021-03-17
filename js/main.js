@@ -76,6 +76,6 @@ for (let i of links) {
     const a = document.createElement("a"); 
     a.setAttribute("href", i.url);
     a.innerHTML = i.label;
-    li.appendChild(a);
+    li.appendChild(a); 
     ol.appendChild(li);
 }
